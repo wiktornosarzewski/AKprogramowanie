@@ -1,4 +1,4 @@
-#by Wiktor Nosarzewski 23.02.2024r.
+#by Wiktor Nosarzewski
 print("Przykładowe wartości: a = 1 b = 2 c = −3")
 a = float(input("Podaj wartość parametru a: "))
 b = float(input("Podaj wartość parametru b: "))
