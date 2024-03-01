@@ -23,4 +23,4 @@ else:
         print(f"x2 = {x2}")
 
 print("Dziękujemy za użycie programu.")
-                        
+input()                        
