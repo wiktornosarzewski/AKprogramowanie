@@ -1,0 +1,18 @@
+RegexWiktorNosarzwski 08.03.2024
+Ćwiczenie 3 - wyrażenia regularne (część 1)
+
+1. Dowolna liczba całkowita (dodatnia lub ujemna):
+	Wyrażenie: ^-?\d+
+ 
+2. Dowolna liczba całkowita lub z częścią dziesiętną po kropce (dodatnia lub ujemna):
+	Wyrażenie: ^-?\d+(\.\d+)?
+
+3. Dowolna liczba całkowita, niecałkowita lub zapisana w postaci naukowej:
+	Wyrażenie: ^-?\d+(\.\d+)?(?:e[+-]?\d+)?
+
+
+4. Dowolne działanie (sumę, różnicę, iloczyn lub iloraz dwóch liczb):
+	Wyrażenie: ^-?\d+(\.\d+)?\s*[-+*/]\s*-?\d+(\.\d+)?
+
+5. Dowolne działanie dowolnej ilości liczb (bez użycia nawiasów):
+	Wyrażenie: ^-?\d+(\.\d+)?(?:\s*[-+*/]\s*-?\d+(\.\d+)?)*
